@@ -6,7 +6,7 @@ function Part1() {
       
       <div>
         <img 
-          src="src\assets\nice-page.svg" 
+          src="https://cdn.prod.website-files.com/66e66be520fb9aea363b6423/66f0e1d5da0e9c1cdad1a63b_nicepay-logo.svg" 
           alt="" 
           height={200}
           width={200}
