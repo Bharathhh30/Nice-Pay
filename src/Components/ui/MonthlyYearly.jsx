@@ -1,11 +1,13 @@
 import React from 'react'
 import Toggle from './Toggle'
+import NewToggle from './NewToggle'
 
 function MonthlyYearly() {
   return (
     <div>
-        MonthlyYearly
-        <Toggle />
+        
+        {/* <Toggle /> */}
+        <NewToggle />
     </div>
   )
 }
