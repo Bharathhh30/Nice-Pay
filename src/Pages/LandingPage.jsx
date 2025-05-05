@@ -6,6 +6,7 @@ import Workflow from "../Components/Workflow";
 import KeyFeatures from "../Components/KeyFeatures";
 import Pricing from "../Components/Pricing";
 import Testimonial from "../Components/Testimonial";
+import Footer from "../Components/Footer";
 
 function LandingPage() {
   return (
@@ -41,10 +42,14 @@ function LandingPage() {
         <Pricing />
       </div>
       {/* testimonials */}
-      <div className="my-10 border-2">
+      <div className="my-10 ">
         <Testimonial />
       </div>
       {/* blogs */}
+      {/* footer */}
+      <div className="my-5 mx-12">
+        <Footer />
+      </div>
     </div>
   );
 }
