@@ -27,6 +27,7 @@ function Phone() {
           className="relative  z-10 mx-auto w-full max-w-lg overflow-hidden"
         />
         </div>
+        
       </div>
     </div>
   );

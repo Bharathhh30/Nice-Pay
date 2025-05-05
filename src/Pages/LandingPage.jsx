@@ -4,6 +4,7 @@ import BigSentence from "../Components/BigSentence";
 import Trusted from "../Components/Trusted";
 import Workflow from "../Components/Workflow";
 import KeyFeatures from "../Components/KeyFeatures";
+import Pricing from "../Components/Pricing";
 
 function LandingPage() {
   return (
@@ -34,6 +35,9 @@ function LandingPage() {
       </div>
       <div>
         <KeyFeatures />
+      </div>
+      <div className="m-5 border-2">
+        <Pricing />
       </div>
     </div>
   );
