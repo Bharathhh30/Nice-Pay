@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoButton from './LogoButton'
-import MonthlyYearly from './ui/MonthlyYearly'
+import NewToggle from './ui/NewToggle'
 
 function Pricing() {
   return (
@@ -10,7 +10,7 @@ function Pricing() {
                 <LogoButton text={"Pricing"} />
             </div>
             <div>
-                <h1 className='text-6xl'>Simple and transparant pricing</h1>
+                <h1 className='text-6xl'>Simple and transparant <span style={{color:"#8276e2"}}>pricing</span></h1>
             </div>
             <div className='text-center pt-6'>
                 <p style={{color:"#909090"}} 
@@ -19,7 +19,7 @@ function Pricing() {
             </div>
             <div className='mt-15'>
                 {/* monthly yearly swap component */}
-                <MonthlyYearly />
+                <NewToggle />
             </div>
         </div>
     </div>
