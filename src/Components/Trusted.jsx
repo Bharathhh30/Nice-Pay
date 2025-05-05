@@ -3,7 +3,7 @@ import { InfiniteMovingCardsDemo } from "./MovingImages";
 
 function Trusted() {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full py-10 border-2 bg-white">
+    <div className="flex flex-col items-center justify-center w-full h-full py-10  bg-white">
       <div className="font-noto font-semibold text-3xl p-2">
         Trusted over 2k+ company{" "}
       </div>

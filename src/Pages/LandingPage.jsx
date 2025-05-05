@@ -3,11 +3,12 @@ import Navbar from "../Components/Navbar";
 import BigSentence from "../Components/BigSentence";
 import Trusted from "../Components/Trusted";
 import Workflow from "../Components/Workflow";
+import KeyFeatures from "../Components/KeyFeatures";
 
 function LandingPage() {
   return (
     // Root div with flex column layout
-    <div className="flex flex-col justify-center items-center relative">
+    <div className="flex flex-col justify-center items-center relative ">
       {/* Gradient section */}
       <div className="w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]">
         {/* Content under gradient */}
@@ -28,8 +29,11 @@ function LandingPage() {
         <Trusted />
       </div>
       {/* our workflow with 4 cards */}
-      <div className="border-2">
+      <div className=" w-full mx-3">
         <Workflow />
+      </div>
+      <div>
+        <KeyFeatures />
       </div>
     </div>
   );
