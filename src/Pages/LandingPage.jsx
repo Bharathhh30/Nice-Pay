@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import BigSentence from "../Components/BigSentence";
 import Trusted from "../Components/Trusted";
+import Workflow from "../Components/Workflow";
 
 function LandingPage() {
   return (
@@ -23,8 +24,12 @@ function LandingPage() {
       </div>
 
       {/* Content after gradient */}
-      <div className="mt-10"> 
+      <div className="my-10"> 
         <Trusted />
+      </div>
+      {/* our workflow with 4 cards */}
+      <div className="border-2">
+        <Workflow />
       </div>
     </div>
   );
